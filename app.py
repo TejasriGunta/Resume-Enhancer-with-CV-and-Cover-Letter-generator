@@ -3,7 +3,7 @@ from docx import Document
 from crewai import resume_enhancer_crew
 
 
-st.title("🚀 AI Resume Enhancer with Cover letter generator")
+st.title("🚀 AI Resume Enhancer with CV and Cover letter generator")
 st.markdown("Enhance your resume and generate personalized cover letters using AI.")
 
 uploaded_resume = st.file_uploader("📄 Upload Resume (Text or Docx)", type=["txt", "docx"])
