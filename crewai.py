@@ -48,12 +48,12 @@ tasks = {
     "CV": Task(
         description="Create a proffessional CV based on the resume text-{resume} and job description-{job_description}.",
         agent=agents["CV generator"],
-        expected_output="A professionally formatted CV with sections for personal info, education, experience, skills, and detailed information about the projects(project information text in paragraph for CV) based on the resume text-{resume}."
+        expected_output="A professionally formatted CV with sections for personal info, education, experience, skills, and detailed information about the projects(project information text in paragraph for CV) based on the resume text-{resume}.Text type-Proffessional to increase recruitment chances"
     ),
     "Cover Letter": Task(
         description="Generate a personalized cover letter.",
         agent=agents["Cover Letter Generator"],
-        expected_output="Well-crafted cover letter(with formal letter format with human text) tailored to the job description-{job_description}.include the following: Header-begin with a header that includes your contact details,then formal greeting with manager's name,Then Introduction-The opening paragraph of the cover letter should aim to introduce who you are and explain why you are interested in the role,After your introduction, focus on your qualifications and skills.Mention about the variety in the projects in one line(keep it short and precise).At the end conclusion. The full letter should be less than 450 words" 
+        expected_output="Well-crafted cover letter(with formal letter format with human text) tailored to the job description-{job_description}.include the following: Header-begin with a header that includes your contact details,then formal greeting with manager's name,Then Introduction-The opening paragraph of the cover letter should aim to introduce who you are and explain why you are interested in the role,After your introduction, focus on your qualifications and skills.Mention about the variety in the projects in one line(keep it short and precise).At the end conclusion. The full letter should be less than 450 words.text should be proffessional to increase chances of recruitment" 
     )
 }
 

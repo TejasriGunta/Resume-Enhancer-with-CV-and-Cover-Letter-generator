@@ -33,7 +33,6 @@ if st.button("🚀 Enhance Resume & Generate Cover Letter"):
         result_str = str(result)
         
         st.header("AI Resume Enhancement Results")
-
         st.subheader("Analysis")
         tasks_output=result.tasks_output
         st.write(tasks_output[0].raw)   
